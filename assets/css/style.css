@@ -12,6 +12,7 @@
 html,
 body {
   min-height: 100%;
+  background-color: #e3e3e3;
 }
 
 .container {
@@ -40,7 +41,7 @@ body {
   top: 10px;
   background: #000;
   overflow: hidden;
-  border: solid 1px red;
+  border: solid 1px #000;
 }
 .container #carousel figure:nth-child(1) {
   transform: rotateY(0deg) translateZ(288px);
